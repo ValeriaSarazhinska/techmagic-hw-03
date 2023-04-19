@@ -1,0 +1,100 @@
+.header {
+    padding: 20px 0;
+    background-color: #2c2a2f;
+}
+
+.header__title {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fcf6ff;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #252424;
+    gap: 20px;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery__item {
+    position: relative;
+    border-radius: 10px;
+    background-color: rgba(133, 131, 131, 0.17);
+
+}
+
+.gallery__img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.get-random-btn, .get-all-btn, .get-favorites-btn {
+    padding: 5px;
+    background-color: #d6443e;
+    border: none;
+    font-size: 18px;
+    color: #fcf6ff;
+}
+
+.get-random-btn:hover, .get-random-btn:focus {
+    background-color: orangered;
+}
+
+.get-all-btn:hover, .get-all-btn:focus {
+    background-color: orangered;
+}
+
+.get-favorites-btn:hover, .get-favorites-btn:focus {
+    background-color: orangered;
+}
+
+.gallery__add {
+    position: absolute;
+    bottom: 0;
+    padding: 0 12px;
+    font-size: 34px;
+    color: #d5443e;
+    background-color: rgba(77, 75, 75, 0.3);
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.gallery__delete {
+    position: absolute;
+    bottom: 0;
+    padding: 0 8px;
+    font-size: 24px;
+    color: #d5443e;
+    background-color: rgba(77, 75, 75, 0.3);
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.gallery__add:hover, .gallery__add:focus {
+    background-color: rgba(5, 5, 5, 0.34);
+}
+
+.gallery__delete:hover, .gallery__delete:focus {
+    background-color: rgba(5, 5, 5, 0.34);
+}
+
+.text {
+    color: #fcf6ff;
+}
