@@ -8,11 +8,11 @@ You can also view your favorite images by loading your favorites list, and delet
 ## Getting Started
 To get started with this project, follow these steps:
 
-1.Clone the repository to your local machine using the following command:
+1. Clone the repository to your local machine using the following command:
 ### git clone repository-url
-2.Navigate to the project directory:
+2. Navigate to the project directory:
 ### cd project-directory
-3.Open the index.html file in your web browser to view the project
+3. Open the index.html file in your web browser to view the project
 
 OR
 
